@@ -15,6 +15,8 @@ declare module 'vue' {
     Column: typeof import('primevue/column')['default']
     DataTable: typeof import('primevue/datatable')['default']
     Dropdown: typeof import('primevue/dropdown')['default']
+    'IIc:roundPersonPin': typeof import('~icons/ic/round-person-pin')['default']
+    'IMaterialSymbols:personPinRounded': typeof import('~icons/material-symbols/person-pin-rounded')['default']
     InputText: typeof import('primevue/inputtext')['default']
     Password: typeof import('primevue/password')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

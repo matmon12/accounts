@@ -26,6 +26,8 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
+    "@iconify-json/ic": "^1.2.4",
+    "@iconify-json/material-symbols": "^1.2.53",
     "@primevue/auto-import-resolver": "^4.5.4",
     "@types/node": "^22.16.5",
     "@vitejs/plugin-vue": "^6.0.1",

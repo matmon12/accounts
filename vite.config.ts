@@ -9,6 +9,7 @@ import IconsResolver from 'unplugin-icons/resolver'
 import Icons from 'unplugin-icons/vite'
 import Components from 'unplugin-vue-components/vite'
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'
+import {PrimeVueResolver} from '@primevue/auto-import-resolver';
 
 // Плагин для создания 404.html для GitHub Pages
 function githubPages404() {
@@ -32,7 +33,7 @@ function githubPages404() {
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/starter-pack/': '/',
+  base: process.env.NODE_ENV === 'production' ? '/accounts/': '/',
   plugins: [
     vue(),
     githubPages404(),
@@ -56,6 +57,7 @@ export default defineConfig({
         IconsResolver({
           // prefix: false,
         }),
+        PrimeVueResolver()
       ],
     }),
     Icons({
